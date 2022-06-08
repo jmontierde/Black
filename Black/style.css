@@ -1,0 +1,123 @@
+
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+
+}
+html{
+      height: 100vh;
+}
+
+body{
+      font-family: 'Open Sans', sans-serif;
+      background-image: url(./bg-black.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 100vh;
+      overflow: hidden;
+}
+
+.black-section{
+      margin: 1rem 2.5rem;
+}
+h1{
+      color: #fff;
+}
+
+h5{
+      font-weight: 200;
+}
+
+hr{
+      margin-top: .5rem;
+      border: 1px solid rgb(219, 219, 219);
+}
+
+.sub-heading{
+      display: flex; 
+      justify-content: space-between;
+      padding-right: 1rem;
+      position: relative;
+      bottom: 1.5rem;
+}
+.sub-heading .sub-description{
+      font-size: 1.5rem;
+      padding-top: 2.5rem;
+      text-transform: uppercase;
+      font-weight: 700;
+
+}
+.sub-heading .number{
+      font-size: 6rem; 
+      
+}
+.sub-heading .number span{
+      font-size: 8rem;
+      position: relative;
+      top: 1.5rem;
+}
+
+.main-heading{
+      text-transform: uppercase;
+      display: flex;
+      height: 150px;
+      align-items: center;
+      font-size: 2.2rem;
+      line-height: 4rem;
+      font-weight: 900;
+      margin-top: 2rem;
+      
+}
+
+.description-class {
+      display: flex;
+      justify-content: space-between;
+      padding-top: .5rem;
+}
+.description{
+      padding-top: .5rem;
+      font-family: 100;
+      color: rgb(222, 209, 209);
+
+
+}
+
+.social-media button{
+      padding: .8rem 1.8rem;
+      font-size: 1rem;
+      border-radius: 1.5rem;
+      border: none;
+      cursor: pointer;
+}
+/* .social-media button span{
+      font-size: 1.5rem;
+} */
+.social-media .site-2{
+      margin-top: 1.5rem;
+      margin-left: 4.2rem;
+}
+.social-media img{
+      height: 12px;
+      padding-left: .5rem;
+}
+
+
+footer{
+      display: flex;
+      justify-content: space-between;
+}
+
+.hr{
+      margin: 0 2.5rem;    
+      margin-top: 1.5rem;
+}
+footer{
+      margin: 0 2.5rem;
+      padding-top: .5rem;
+      color: rgb(18, 18, 18);
+      text-decoration: underline;
+      font-size: 1rem;
+      font-weight: 100;
+}
